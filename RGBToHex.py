@@ -52,20 +52,6 @@ class ColourValues:
             return value
 
 
-
-    def convertSectionsToHex(self, value):
-        first = value // 16
-        second = value % 16
-        if first > 9:
-            first = self.convertToLetter(first)
-        if second > 9:
-            second = self.convertToLetter(second)
-
-        first = str(first)
-        second = str(second)
-
-        return first + second
-
     def convertSectionsToRGB(self, value):
         number = 0
         first = value[1]
