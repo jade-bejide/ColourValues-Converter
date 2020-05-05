@@ -100,8 +100,4 @@ class ColourValues:
 
         return self.hex_equivalent
 
-first = ColourValues(255, 0, 255)
 
-print(first.get_hex())
-
-print(first.get_RGB())
